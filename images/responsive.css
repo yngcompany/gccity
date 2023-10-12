@@ -1,0 +1,21 @@
+@charset "utf-8";
+/*  
+	-----------------------------------------------
+	* responsive.css (포털 레이아웃 및 포털 공용 반응형)
+	-----------------------------------------------
+*/
+
+@media screen and (max-width:1024px) {
+}
+
+@media screen and (max-width:768px) {
+}
+
+@media screen and (max-width:640px) {
+}
+
+@media screen and (max-width:375px) {
+}
+
+@media screen and (max-width:320px) {
+}
