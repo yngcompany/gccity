@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+#lnb_07 {display:none !important;}
+
+/** PC GNB : 분야별 메뉴 아이콘화 **/
+
+#lnb_06 .lnb_sub:before {content:""; display:block; position:absolute; top:0; bottom:0; right:0; width:50%; z-index:-1; background:#f0f4fc;}
+#lnb_06 .lnb_sub .depth02 {background:#f0f4fc; text-align:right; margin-right:-3.2rem;}
+#lnb_06 .lnb_sub .depth02:after {content:""; display:block; clear:both;}
+#lnb_06 .lnb_sub .depth02 > li {display:inline-block; position:relative; width:auto; vertical-align:top;}
+#lnb_06 .lnb_sub .depth02 > li > * {display:block;}
+#lnb_06 .lnb_sub .depth02 .cell2 {display:none;}
+#lnb_06 .lnb_sub .depth02 .cell {width:auto; background:none; padding:3.2rem; text-align:center;}
+#lnb_06 .lnb_sub .depth02 .cell a {display:block; position:relative; text-align:center; padding:0; font-size:1.8rem; font-weight:800; margin:0; background:none; color:#333; border-radius:0;}
+#lnb_06 .lnb_sub .depth02 .cell a:before {content:""; display:block; position:relative; background:no-repeat 50% 50% #fff; background-size:13rem auto; width:20rem; height:17rem; border-radius:1.6rem; border:1px solid #dfe0e8; margin-bottom:1.8rem;}
+#lnb_06 .lnb_sub .depth02 .cell a span {display:inline-block; position:relative; z-index:0;}
+#lnb_06 .lnb_sub .depth02 .cell a span:after {content:""; display:block; position:absolute; left:-.4rem; right:-.4rem; height:.8em; border-radius:9em; bottom:-.3em; background:#c4d4f3; opacity:0; z-index:-1;}
+#lnb_06 .lnb_sub .depth02 .cell a:hover:before {
+	-webkit-box-shadow: 14px 14px 30px 0px rgba(74,85,106,0.15);
+	-moz-box-shadow: 14px 14px 30px 0px rgba(74,85,106,0.15);
+	box-shadow: 14px 14px 30px 0px rgba(74,85,106,0.15);
+}
+#lnb_06 .lnb_sub .depth02 .cell a:hover span:after {opacity:1;}
+
+#lnb_06 .lnb_sub .depth02 .cell a[data-menu-id="0601000000"]:before {background-image:url('../img/common/ico_depart_01.png');}
+#lnb_06 .lnb_sub .depth02 .cell a[data-menu-id="0602000000"]:before {background-image:url('../img/common/ico_depart_02.png');}
+#lnb_06 .lnb_sub .depth02 .cell a[data-menu-id="0603000000"]:before {background-image:url('../img/common/ico_depart_03.png');}
+#lnb_06 .lnb_sub .depth02 .cell a[data-menu-id="0604000000"]:before {background-image:url('../img/common/ico_depart_04.png');}
+#lnb_06 .lnb_sub .depth02 .cell a[data-menu-id="0605000000"]:before {background-image:url('../img/common/ico_depart_05.png');}
+#lnb_06 .lnb_sub .depth02 .cell a[data-menu-id="0606000000"]:before {background-image:url('../img/common/ico_depart_06.png');}
+#lnb_06 .lnb_sub .depth02 .cell a[data-menu-id="0607000000"]:before {background-image:url('../img/common/ico_depart_07.png');}
+#lnb_06 .lnb_sub .depth02 .cell a[data-menu-id="0608000000"]:before {background-image:url('../img/common/ico_depart_08.png');}
